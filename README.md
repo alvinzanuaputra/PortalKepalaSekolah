@@ -41,7 +41,7 @@
 [`^ kembali ke atas ^`](#konten-integrated-monitoring-systemimosy)
 
 ### Use Case Diagram
-![Use case](/berkas/dokumentasi_IMoSy/Use_Case.png)
+![Use case](/berkas/dokumentasi_IMoSy/use_case.png)
 ### Activity Diagram
 ![Activity diagram](/berkas/dokumentasi_IMoSy/activity_diagram_2.png)
 ### Class Diagram
