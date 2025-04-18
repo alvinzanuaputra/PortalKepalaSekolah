@@ -41,13 +41,13 @@
 [`^ kembali ke atas ^`](#konten-integrated-monitoring-systemimosy)
 
 ### Use Case Diagram
-![Use case](./berkas/dokumentasi_IMoSy/Use_Case.png)
+![Use case](/berkas/dokumentasi_IMoSy/Use_Case.png)
 ### Activity Diagram
-![Activity diagram](./berkas/dokumentasi_IMoSy/activity_diagram_2.png)
+![Activity diagram](/berkas/dokumentasi_IMoSy/activity_diagram_2.png)
 ### Class Diagram
-![Class diagram](./berkas/dokumentasi_IMoSy/Class_diagram_fix.png)
+![Class diagram](/berkas/dokumentasi_IMoSy/Class_diagram_fix.png)
 ### Entity Relationship Diagram
-![ERD](./berkas/dokumentasi_IMoSy/erd.png)
+![ERD](/berkas/dokumentasi_IMoSy/erd.png)
 
 
 
@@ -59,7 +59,7 @@ Berikut merupakan tampilan form login, yang sudah terintegrasi dengan teknologi 
 
 | Halaman Login | Beranda |
 | ----- | ----- |
-| ![Login](./berkas/dokumentasi_IMoSy/login_page.png) | ![Beranda](./berkas/dokumentasi_IMoSy/main_page_part1.png) |
+| ![Login](/berkas/dokumentasi_IMoSy/login_page.png) | ![Beranda](/berkas/dokumentasi_IMoSy/main_page_part1.png) |
 
 
 ### 2. Monitoring Pekerjaan Guru
@@ -67,7 +67,7 @@ Fitur ini memungkinkan user, Kepala Sekolah, dapat memantau pekerjaan guru seper
 
 | Ringkasan | Tabel Utama |
 | ----- | ----- |
-| ![status1](./berkas/dokumentasi_IMoSy/status_guru_part1.png) | ![status2](./berkas/dokumentasi_IMoSy/status_guru_part2.png) |
+| ![status1](/berkas/dokumentasi_IMoSy/status_guru_part1.png) | ![status2](/berkas/dokumentasi_IMoSy/status_guru_part2.png) |
 
 
 ### 3. Kirim Pesan
@@ -77,51 +77,51 @@ Fitur kirim pesan pada sistem ini digunakan untuk mengirim pesan reminder kepada
 
 | Option | Tulis Pesan |
 | ----- | ----- |
-| <img src="./berkas/dokumentasi_IMoSy/tulis_pesan_part1.png"> | ![create](./berkas/dokumentasi_IMoSy/tulis_pesan_part2.png) |
+| <img src="/berkas/dokumentasi_IMoSy/tulis_pesan_part1.png"> | ![create](/berkas/dokumentasi_IMoSy/tulis_pesan_part2.png) |
 
 - **Pesan Terkirim**
 
 | Daftar Pesan Terkirim | Detail Pesan Terkirim |
 | ----- | ----- |
-| ![outbox1](./berkas/dokumentasi_IMoSy/outbox.png) | ![outbox2](./berkas/dokumentasi_IMoSy/outbox_detail.png) |
+| ![outbox1](/berkas/dokumentasi_IMoSy/outbox.png) | ![outbox2](/berkas/dokumentasi_IMoSy/outbox_detail.png) |
 
 ### 4. View Data Siswa, Guru, dan Tenaga Pendidik
 - **Data Siswa**
 
 | Data | Biodata |
 | ----- | ----- |
-| ![data_siswa](./berkas/dokumentasi_IMoSy/data_siswa.png) | ![data_siswa](./berkas/dokumentasi_IMoSy/biodata_siswa_part1.png) |
+| ![data_siswa](/berkas/dokumentasi_IMoSy/data_siswa.png) | ![data_siswa](/berkas/dokumentasi_IMoSy/biodata_siswa_part1.png) |
 
 - **Data Guru**
 
 | Data | Biodata |
 | ----- | ----- |
-| ![data_guru](./berkas/dokumentasi_IMoSy/data_guru.png) | ![data_guru](./berkas/dokumentasi_IMoSy/biodata_guru_part1.png) |
+| ![data_guru](/berkas/dokumentasi_IMoSy/data_guru.png) | ![data_guru](/berkas/dokumentasi_IMoSy/biodata_guru_part1.png) |
 
 - **Data Tenaga Pendidik**
 
 | Data | Biodata |
 | ----- | ----- |
-| ![data_tendik](./berkas/dokumentasi_IMoSy/data_tendik.png) | ![data_tendik](./berkas/dokumentasi_IMoSy/biodata_tendik_part1.png) |
+| ![data_tendik](/berkas/dokumentasi_IMoSy/data_tendik.png) | ![data_tendik](/berkas/dokumentasi_IMoSy/biodata_tendik_part1.png) |
 
 ### 5. Monitoring Data Inventaris 
 Fitur ini memungkinan user memonitor dan mengelola pendataan inventaris. Pengelolaan yang dapat dilakukan adalah *create*, *read*, *update*, dan *delete* (CRUD). Selain itu sistem dapat melakukan *auto-numbering* pada kode inventaris, sesuai format kode inventaris yang digunakan oleh SCB sebagai berikut:
 
-![format_kode](./berkas/dokumentasi_IMoSy/format_kode_inventaris.png)
+![format_kode](/berkas/dokumentasi_IMoSy/format_kode_inventaris.png)
 
 Pengelolaan inventaris terbagi menjadi beberapa sub menu, antara lain pengelolaan berdasarkan:
 | Menu | Penjelasan | View |
 | ----- | ----- | ----- |
-| **a. Jenis Inventaris** | Pada menu ini inventaris dikelola berdasarkan jenisnya. | ![jenis_inventaris](./berkas/dokumentasi_IMoSy/jenis_inventaris.png) ![jenis_inventaris1](./berkas/dokumentasi_IMoSy/jenis_inventaris_input_data.png) |
-| **b. Kebutuhan Barang** | Menu ini digunakan untuk memonitor kondisi inventaris yang dimiliki berdasarkan jumlah baik, kurang baik, dan rusak dari inventaris yang ada. | ![kebutuhan_barang](./berkas/dokumentasi_IMoSy/kebutuhan_barang.png) |
-| **c. Data Inventaris** | Sub ini berisi detil dari satuan barang inventaris. *Auto-numbering* kode inventaris ditampilkan pada sub ini. | ![data_inventaris](./berkas/dokumentasi_IMoSy/data_inventaris.png) |
-| **d. Gedung** | Menu ini digunakan untuk mendata ketersedian gedung yang ada di SCB. | ![gedung](./berkas/dokumentasi_IMoSy/data_gedung.png) |
-| **e. Ruangan** | Menu ini digunakan untuk mendata ketersediaan ruangan yang ada di SCB. | ![ruangan](./berkas/dokumentasi_IMoSy/data_ruangan.png) |
+| **a. Jenis Inventaris** | Pada menu ini inventaris dikelola berdasarkan jenisnya. | ![jenis_inventaris](/berkas/dokumentasi_IMoSy/jenis_inventaris.png) ![jenis_inventaris1](/berkas/dokumentasi_IMoSy/jenis_inventaris_input_data.png) |
+| **b. Kebutuhan Barang** | Menu ini digunakan untuk memonitor kondisi inventaris yang dimiliki berdasarkan jumlah baik, kurang baik, dan rusak dari inventaris yang ada. | ![kebutuhan_barang](/berkas/dokumentasi_IMoSy/kebutuhan_barang.png) |
+| **c. Data Inventaris** | Sub ini berisi detil dari satuan barang inventaris. *Auto-numbering* kode inventaris ditampilkan pada sub ini. | ![data_inventaris](/berkas/dokumentasi_IMoSy/data_inventaris.png) |
+| **d. Gedung** | Menu ini digunakan untuk mendata ketersedian gedung yang ada di SCB. | ![gedung](/berkas/dokumentasi_IMoSy/data_gedung.png) |
+| **e. Ruangan** | Menu ini digunakan untuk mendata ketersediaan ruangan yang ada di SCB. | ![ruangan](/berkas/dokumentasi_IMoSy/data_ruangan.png) |
 
 ### Beberapa Tampilan Mobile dari Sistem
 | Login | Beranda | Sidebar | Data Inventaris | Status Pekerjaan Guru | Tulis Pesan |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| ![mobile1](./berkas/dokumentasi_IMoSy/mobile1.png) | ![mobile2](./berkas/dokumentasi_IMoSy/mobile2.png) | ![mobile3](./berkas/dokumentasi_IMoSy/mobile3.png) | ![mobile4](./berkas/dokumentasi_IMoSy/mobile4.png) | ![mobile5](./berkas/dokumentasi_IMoSy/mobile5.png) | ![mobile6](./berkas/dokumentasi_IMoSy/mobile6.png) |
+| ![mobile1](/berkas/dokumentasi_IMoSy/mobile1.png) | ![mobile2](/berkas/dokumentasi_IMoSy/mobile2.png) | ![mobile3](/berkas/dokumentasi_IMoSy/mobile3.png) | ![mobile4](/berkas/dokumentasi_IMoSy/mobile4.png) | ![mobile5](/berkas/dokumentasi_IMoSy/mobile5.png) | ![mobile6](/berkas/dokumentasi_IMoSy/mobile6.png) |
 
 
 ## E. Konsep OOP
@@ -209,4 +209,4 @@ Factory pattern memungkinkan kami untuk menginstansiasi objek tanpa harus peduli
 Builder pattern sangat membantu disaat harus menginstansiasi sebuah objek yang kompleks secara bertahap dan juga disaat kita ingin menginstansiasi beberapa objek dari kelas yang berbeda melalui satu buah builder. Design pattern ini digunakan saat kami membuat session untuk login user.
 
 ### Provider Pattern
-Pattern yang satu ini, memungkinkan kami untuk mengakses service-service penting melalui satu pintu. Kami juga dapat menambahkan service baru jika diperlukan. Pada laravel, semua service penting di daftarkan menggunakan teknik ini. Kami berencana untuk menambahkan sebuah service baru untuk generate laporan pekerjaan guru dalam format excel atau pdf. # PortalKepalaSekolah
+Pattern yang satu ini, memungkinkan kami untuk mengakses service-service penting melalui satu pintu. Kami juga dapat menambahkan service baru jika diperlukan. Pada laravel, semua service penting di daftarkan menggunakan teknik ini. Kami berencana untuk menambahkan sebuah service baru untuk generate laporan pekerjaan guru dalam format excel atau pdf. 
